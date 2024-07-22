@@ -1,0 +1,41 @@
+get.accounts
+geth.accounts
+geth init --datadir ./data genesis.json
+geth account new --datadir data
+geth init --datadir ./data genesis.json
+geth.accounts
+eth.accounts
+get.accounts
+geth.accounts
+eth.accounts
+geth init --datadir D:\github\copyright\data genesis.json
+geth init --datadir "D:\github\copyright\data" genesis.json
+geth --datadir ./data account new
+eth.accounts
+eth.getBalance(eth.accounts)
+eth.getBalance(eth.accounts[0])
+eth.getBalance(eth.accounts[1])
+miner.start(1)
+eth.accounts
+eth.getBalance(eth.accounts[1])
+acc0=eth.accounts[0]
+acc1=eth.accounts[1]
+eth.sendTransaction({from:acc0,to:acc1,value:web3.toWei(10)})
+eth.getBalance(acc1)
+eth.accounts
+eth.getBalance('0xD894787620013000639EC501A9EB9300C7dea550')
+eth.accounts
+eth.getBalance('0xD894787620013000639EC501A9EB9300C7dea550')
+eth.accounts
+eth.getBalance('fddf412caa96aa185a83699502c54a96fe53ea42')
+eth.accounts
+eth.getBalance('0xa204543dbf86e18794c72943e74eccf63369651b')
+eth.getBalance('0xbe9ab3661f83d3385b896513ead7ec3ef78d9bbc')
+eth.sendTransaction({from:'0xbe9ab3661f83d3385b896513ead7ec3ef78d9bbc',to:'0xCCAEE0d151a7269D22d66f3E123292081C36DB22',value:web3.toWei(100)})
+eth.getBalance('0xCCAEE0d151a7269D22d66f3E123292081C36DB22')
+eth.sendTransaction({from:'0xbe9ab3661f83d3385b896513ead7ec3ef78d9bbc',to:'0xEa0d55DF0d31709866bd947Ad65c22b7be803477',value:web3.toWei(100)})
+eth.getBalance('0xEa0d55DF0d31709866bd947Ad65c22b7be803477')
+eth.getBalance('0xCCAEE0d151a7269D22d66f3E123292081C36DB22')
+eth.getBalance('0xbe9ab3661f83d3385b896513ead7ec3ef78d9bbc')
+eth.getBalance('0xCCAEE0d151a7269D22d66f3E123292081C36DB22')
+eth.getBalance('0xbe9ab3661f83d3385b896513ead7ec3ef78d9bbc')
